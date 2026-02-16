@@ -4,6 +4,22 @@
     "version": "006f55f1"
   },
   "aggregations": {
+    "electronics": {
+      "count": 7,
+      "inventoryValue": 141872.53
+    },
+    "clothing": {
+      "count": 9,
+      "inventoryValue": 158994.35
+    },
+    "sports": {
+      "count": 3,
+      "inventoryValue": 105312.48
+    },
+    "books": {
+      "count": 1,
+      "inventoryValue": 18682.32
+    },
     "home": {
       "count": 4,
       "inventoryValue": 62381.98
