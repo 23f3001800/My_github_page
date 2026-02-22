@@ -1,0 +1,9 @@
+name: Grader Verification Action
+
+jobs:
+  test:
+    steps:
+      - name: 23f3001800@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
+        
