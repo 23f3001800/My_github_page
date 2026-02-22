@@ -1,9 +1,13 @@
-name: Grader Verification Action
+name: Email Workflow
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: 23f3001800@ds.study.iitm.ac.in
         run: echo "Hello, world!"
-
-        
